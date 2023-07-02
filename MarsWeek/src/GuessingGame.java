@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class GuessingGame {
 
-  public void GuessingGame() {}
+  public GuessingGame() {}
 
   public void PlayGame() {
     PrintWelcomeMessage();

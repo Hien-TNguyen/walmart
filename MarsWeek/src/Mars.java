@@ -26,6 +26,9 @@ public class Mars {
     landing = landingCheck(10);
     GuessingGame game = new GuessingGame();
     game.PlayGame();
+
+    MarsExpedition prep = new MarsExpedition();
+    prep.ExpeditionPrep();
   }
 
   public static boolean landingCheck(int minutesLeft) throws InterruptedException {
