@@ -24,11 +24,18 @@ public class Mars {
     }
 
     landing = landingCheck(10);
+
+    // GUESSING GAME
     GuessingGame game = new GuessingGame();
     game.PlayGame();
 
+    // EXPEDITION PREP
     MarsExpedition prep = new MarsExpedition();
     prep.ExpeditionPrep();
+
+    // FINDING LIST
+    FindingsList postWorks = new FindingsList();
+    postWorks.CollectThings();
   }
 
   public static boolean landingCheck(int minutesLeft) throws InterruptedException {
