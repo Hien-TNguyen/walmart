@@ -1,0 +1,9 @@
+2023-07-07
+16:20:03.017215
+A red velvet based cupcake, with cream cheese frosting.: 3.00
+A chocolate based cupcake, with chocolate frosting.: 4.00
+2023-07-07
+16:24:59.147716
+A red velvet based cupcake, with cream cheese frosting.: 3.00
+A bottle of water.: 5.00
+A bottle of milk.: 7.00

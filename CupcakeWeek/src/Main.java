@@ -32,7 +32,8 @@ public class Main {
     drinkMenu.add(soda);
     drinkMenu.add(milk);
 
-    new Order(cupcakeMenu, drinkMenu);
+    Order order = new Order(cupcakeMenu, drinkMenu);
+    order.takeOrder();
 
   }
 
@@ -63,60 +64,68 @@ public class Main {
   }
 }
 
-class Cupcake {
-  public double price;
-
+class Item {
+  private double price;
+  private String description;
   public double getPrice() {
     return price;
   }
-
   public void setPrice(double price) {
     this.price = price;
   }
-
+  public Item(String description) {
+    this.description = description;
+  }
+  public String getDescription() {
+    return description;
+  }
+  @Override 
+  public String toString() {
+    return String.format("%s: %.2f", description, price);
+  }
   public void type() {
-    System.out.println("A basic, generic cupcake, with vanilla frosting.");
+    System.out.println(getDescription());
+  }
+}
+
+class Cupcake extends Item {
+  public Cupcake() {
+    super("A basic, generic cupcake, with vanilla frosting.");
+  }
+  public Cupcake(String description) {
+    super(description);
   }
 }
 
 class RedVelvet extends Cupcake {
-  @Override
-  public void type() {
-    System.out.println("A red velvet based cupcake, with cream cheese frosting.");
+  public RedVelvet() {
+    super("A red velvet based cupcake, with cream cheese frosting.");
   }
 }
 
 class Chocolate extends Cupcake {
-  @Override
-  public void type() {
-    System.out.println("A chocolate based cupcake, with chocolate frosting.");
+  public Chocolate() {
+    super("A chocolate based cupcake, with chocolate frosting.");
   }
 }
 
-class Drink {
-  public double price;
-
-  public double getPrice() {
-    return price;
+class Drink extends Item {
+  public Drink() {
+    super("A bottle of water.");
   }
-  public void setPrice(double price) {
-    this.price = price;
-  }
-  public void type() {
-    System.out.println("A bottle of water.");
+  public Drink(String description) {
+    super(description);
   }
 }
 
 class Soda extends Drink {
-  @Override
-  public void type() {
-    System.out.println("A bottle of soda.");
+  public Soda() {
+    super("A bottle of soda.");
   }
 }
 
 class Milk extends Drink {
-  @Override
-  public void type() {
-    System.out.println("A bottle of milk.");
+  public Milk() {
+    super("A bottle of milk.");
   }
 }
