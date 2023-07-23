@@ -9,10 +9,10 @@ public class MovieApp {
     // create application context 
     AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(MovieApp.class);
     
-    // get the best moview using default bean id
+    // get the best movie using default bean id
     BestMovieService bestMovieService = applicationContext.getBean("bestMovieService", BestMovieService.class);
 
-    // using the best movie service, get the best movie
+    // using the best movie service to get the best movie
     Movie bestMovie = bestMovieService.getBestMovie();
 
     // print out the title, maturity rating, genre of the best movie

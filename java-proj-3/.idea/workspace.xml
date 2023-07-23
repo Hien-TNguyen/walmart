@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22d23c79-a826-4592-89fc-e5f07ff1e96b" name="Changes" comment="" />
+    <list default="true" id="22d23c79-a826-4592-89fc-e5f07ff1e96b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../java-proj-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-proj-3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-proj-3/starter/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-proj-3/starter/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-proj-3/starter/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-proj-3/starter/src/main/java/com/javaunit3/springmvc/BatmanMovie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-proj-3/starter/src/main/java/com/javaunit3/springmvc/BestMovieService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-proj-3/starter/src/main/java/com/javaunit3/springmvc/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-proj-3/starter/src/main/java/com/javaunit3/springmvc/MovieApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-proj-3/starter/src/main/java/com/javaunit3/springmvc/MovieController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-proj-3/starter/src/main/java/com/javaunit3/springmvc/SpringmvcApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-proj-3/starter/src/main/java/com/javaunit3/springmvc/TitanicMovie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-proj-3/starter/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-proj-3/starter/src/main/resources/templates/bestMovie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-proj-3/starter/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-proj-3/starter/src/main/resources/templates/voteForBestMovie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-proj-3/starter/src/test/java/com/javaunit3/springmvc/SpringmvcApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-proj-3/starter/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-proj-3/starter/target/classes/templates/bestMovie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-proj-3/starter/target/classes/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-proj-3/starter/target/classes/templates/voteForBestMovie.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,9 +51,24 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/hiennguyen/WalmartX3/walmart/java-proj-3"
+    "last_opened_file_path": "/Users/hiennguyen/WalmartX3/walmart/java-proj-3-01"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="java-proj-3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="java-proj-3" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
