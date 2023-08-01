@@ -23,5 +23,10 @@
 hs_err_pid*
 replay_pid*
 
+<<<<<<< HEAD
 #credential
 *.properties
+=======
+# configuration xml file with credentials 
+java-proj-3/starter/target/classes/hibernate.cfg.xml
+>>>>>>> origin
